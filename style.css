@@ -1,0 +1,27 @@
+.game-cell
+{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#first-column,
+#second-column,
+#third-column
+{
+    float: left;
+}
+
+#first-column,
+#second-column
+{
+    border-right: 1px solid black;
+}
+
+.first-row,
+.second-row
+{
+    border-bottom: 1px solid black;
+}
